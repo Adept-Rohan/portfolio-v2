@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        quicksand: ['var(--font-quicksand)'],
+        inter: ['var(--font-inter)'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        customGreen: 'rgb(65 255 201 / <alpha-value>)',
+        customGray: 'rgb(189 189 189 / <alpha-value>)'
       },
     },
   },
