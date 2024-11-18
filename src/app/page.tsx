@@ -1,6 +1,4 @@
-import { HeaderIcon } from "@/assest/HeaderIcon";
 import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
 import { Headline } from "@/components/Headline";
 import { HeroSection } from "@/components/HeroSection";
 import { Technology } from "@/components/Technology";

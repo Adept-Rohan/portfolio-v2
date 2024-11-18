@@ -1,19 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Quicksand } from 'next/font/google';
 import "../globals.css";
 
 
-const inter = Inter({
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--font-inter',
-})
-
-const quicksand = Quicksand({
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--font-quicksand',
-})
 
 export const metadata: Metadata = {
     title: "Rohan Khatiwada",
