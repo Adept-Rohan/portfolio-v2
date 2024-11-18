@@ -112,7 +112,7 @@ const Portfolio = () => {
                 </div>
                 <div className='w-full'>
                     <div className='w-full h-auto cursor-pointer'>
-                        <Link href='https://kheldim.vercel.app/'><Image src={Project2} alt="Kheldim" /></Link>
+                        <Link href=''><Image src={Project2} alt="Kheldim" /></Link>
                     </div>
                     <div className='flex items-center gap-4 mt-2 flex-wrap'>
                         {
@@ -136,7 +136,7 @@ const Portfolio = () => {
                 </div>
                 <div className='w-full'>
                     <div className='w-full h-auto cursor-pointer'>
-                        <Link href='https://kheldim.vercel.app/'><Image src={Project4} alt="Channkya Meeting" /></Link>
+                        <Link href=''><Image src={Project4} alt="Channkya Meeting" /></Link>
                     </div>
                     <div className='flex items-center gap-4 mt-2 flex-wrap'>
                         {
