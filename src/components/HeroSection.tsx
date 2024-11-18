@@ -2,8 +2,8 @@
 export const HeroSection = () => {
     return (
         <>
-            <div className='flex justify-between'>
-                <div className="flex flex-col justify-around space-y-6 my-24">
+            <div className='flex flex-col items-center md:flex md:flex-row  lg:flex lg:flex-row justify-between'>
+                <div className="flex flex-col justify-around space-y-6 my-12 md:my-24 lg:md-24">
                     <div className="flex flex-col ">
                         <div className="flex items-center space-x-4">
                             <span className="text-[2rem] font-quicksand text-customGreen text-opacity-75  ">Rohan </span>
