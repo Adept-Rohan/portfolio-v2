@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import type { Metadata } from "next";
 import { Inter, Quicksand } from 'next/font/google';
 import "./globals.css";
+import { ThemeProvider } from "@/context/ThemeContext";
 
 
 const inter = Inter({
@@ -31,12 +32,14 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${quicksand.variable}`}
       >
-        <div className="w-screen flex justify-center">
-          <div className="w-[90%] max-w-[1200px]">
-            <Header />
+        <ThemeProvider>
+          <div className="w-screen flex justify-center">
+            <div className="w-[90%] max-w-[1200px]">
+              <Header />
+            </div>
           </div>
-        </div>
-        {children}
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
