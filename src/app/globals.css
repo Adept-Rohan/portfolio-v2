@@ -9,7 +9,7 @@ html {
 body {
   @apply text-gray-800; /* Light mode text color (dark gray) */
   background: linear-gradient(to top right, #f3f4f6, #e5e7eb); /* Light mode soft gray gradient */
-  color: #1f2937; /* Light mode text color */
+  color: #2f7c1c; /* Light mode text color */
   min-height: 100vh;
   margin: 0;
   padding: 0;
