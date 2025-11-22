@@ -42,8 +42,8 @@ const Experience = () => {
             </div>
             <div className="mt-6 flex flex-col gap-4">
                 {
-                    EXPERIENCE_DATA.map((data)=> (
-                 <div className='rounded-md flex items-center cursor-pointer w-full h-[115px] dark:backdrop-blur-2xl transition-all duration-1000 opacity-1 -translate-y-0 bg-[#ffffff0a] hover:bg-[#ffffff0f] p-4 relative'>
+                    EXPERIENCE_DATA.map((data, index)=> (
+                 <div key={index} className='rounded-md flex items-center cursor-pointer w-full h-[115px] dark:backdrop-blur-2xl transition-all duration-1000 opacity-1 -translate-y-0 bg-[#ffffff0a] hover:bg-[#ffffff0f] p-4 relative'>
                     <div className='w-16 h-16'>
                         <Image src={data.image} alt="Awakened Devs" />
                     </div>
